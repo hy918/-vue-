@@ -69,7 +69,6 @@ export default {
                if (res.meta.status !== 200) return this.$message.error('登录失败')
               //  将登陆成功之后的token, 保存到客户端的sessionStorage中; localStorage中是持久化的保存
              window.sessionStorage.setItem('token' ,res.data.token)
-            console.log(res);
             //  跳转到成功的页面
             this.$router.push('/home')
 

@@ -3,3 +3,17 @@ body,html,#app{
     margin:0;
     padding: 0;
 }
+.el-card{
+    margin-top:10px;
+    margin-bottom:10px;
+
+}
+.el-table {
+    margin-top:15px;
+}
+.el-breadcrumb{
+    margin-bottom:15px;
+}
+.block{
+    margin-top: 10px;
+}
