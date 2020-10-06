@@ -5,10 +5,11 @@ import App from './App'
 import router from './router'
 import axios from 'axios'
 import './assets/css/global.css'
-
-
 import ElementUI from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css';
+import ZkTable from 'vue-table-with-tree-grid'
+
+Vue.use(ZkTable)
 
 Vue.use(ElementUI);
 // 挂在到Vue实例，后面可通过this调用
