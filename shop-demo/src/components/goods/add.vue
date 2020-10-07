@@ -52,6 +52,7 @@
                         :options="cateList"
                         :props="cascaderProps"
                         @change="handleChange"
+                        change-on-select
                     ></el-cascader>
                     </el-form-item>
                 </el-tab-pane>

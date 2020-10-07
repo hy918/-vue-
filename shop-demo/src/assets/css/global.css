@@ -22,3 +22,6 @@ body,html,#app{
 .ql-editor{
     min-height: 200px;
 }
+.el-dialog{
+    text-align: left;
+}
